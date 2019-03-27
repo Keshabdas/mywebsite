@@ -1,0 +1,121 @@
+.jumbotron{
+	background-color: orange;
+	color: #fff;
+	padding: 100px 25px;
+}
+.bg-grey{
+	background-color: #777;
+	color: #fff;
+}
+.bg-light{
+	background: #ddd;
+}
+.container-fluid{
+	padding: 50px;
+}
+.container-fluid h1,h3{
+	margin-bottom: 40px;
+}
+.logo{
+	font-size: 200px;
+	color: orange;
+}
+.logo-small{
+	font-size: 50px;
+	color: red;
+}
+
+.thumbnail img{
+	margin-bottom: 15px;
+}
+.carousel-control.right, .carousel-control.left{
+	background-image: none;
+	color:#f4511e;
+}
+.carousel-indicators li {
+	border-color: #f4511e;
+}
+.carousel-indicators li.active {
+	background-color: #f4511e;
+}
+.item h4{
+	font-size: 19px;
+	line-height: 1em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 60px;
+}
+
+.panel {
+	border: 1px solid #f4511e !important;
+	transition: box-shadow 0.5s;
+}
+.panel:hover {
+	box-shadow: 5px 0 40px rgba(0,0,0, 0.2);
+}
+.panel-heading{
+	color: #fff !important;
+	background-color: orange !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+}
+.panel-footer {
+	background-color: #ddd;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #111;
+  font-size: 14px;
+}
+.panel-footer .btn {
+	background-color: orange !important;
+	color: #fff;
+	margin: 20px 0;
+}
+.panel-footer .btn:hover {
+	background-color: #fff !important;
+	color: orange;
+	border-color: #f4511e;
+} 
+
+.col-sm-12 .btn {
+	background: #333;
+	color: #fff;
+}
+.col-sm-12 .btn:hover {
+	background: #fff;
+	color: #333;
+}
+
+.navbar {
+	background-color: #ccc !important;
+	border: none;
+	font-size: 15px;
+	z-index: 999;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #111 !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	background-color: #fff !important;
+	color: #f4511e !important;
+}
+.navbar-toggle {
+	border-color: #111 !important;
+}
+footer {
+	background: orange !important;
+	color: #fff !important;
+	font-size: 20px;
+}
+@media screen and (max-width: 786px){
+	.col-sm-4 {
+		text-align: center;
+		padding: 25px 0;
+	}
+	.col-sm-8 {
+		text-align:center;
+	}
+}
